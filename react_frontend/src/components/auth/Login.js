@@ -5,27 +5,7 @@ import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import classnames from "classnames";
 
-// import { makeStyles } from '@material-ui/core/styles';
-// import Card from '@material-ui/core/Card';
-// import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
-
-// const useStyles = makeStyles({
-//     root: {
-//       minWidth: 275,
-//     },
-//     bullet: {
-//       display: 'inline-block',
-//       margin: '0 2px',
-//       transform: 'scale(0.8)',
-//     },
-//     title: {
-//       fontSize: 14,
-//     },
-//     pos: {
-//       marginBottom: 12,
-//     },
-//   });
 
 class Login extends Component {
   constructor() {
@@ -65,17 +45,6 @@ this.props.loginUser(userData);
 
 render() {
 
-    // const useStyles = {
-    //     root: {
-    //       minWidth: 375,
-    //       margin: 100,
-    //       marginTop:50,
-    //       marginBottom:50,
-    //       borderRadius:20
-          
-    //     },
-    //   };
-    // const classes = useStyles();
     const { errors } = this.state;
     
 return (

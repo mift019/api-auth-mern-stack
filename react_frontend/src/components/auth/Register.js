@@ -58,17 +58,20 @@ return (
                     
                 }}
           >
-        <div className="row">
+        <div className="row" style={{ marginTop: "4rem", marginBottom: "4rem" }}>
           <div className="col s8 offset-s2">
             <Link to="/" className="btn-flat waves-effect">
-              <i className="material-icons left">keyboard_backspace</i> Back to Landing Page
+              <i className="material-icons left">keyboard_backspace</i>Kembali
             </Link>
-            <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-              <h4>
-                <b>Register</b> below
-              </h4>
-              <p className="grey-text text-darken-1">
-                Already have an account? <Link to="/login">Log in</Link>
+            <div className="col s12" style={{ letterSpacing: "1.5px", float:"left" }}>
+              <p className="grey-text text-darken-1"
+                style={{
+                fontSize: "20px",
+                letterSpacing: "1.5px",
+                textTransform: "inherit",
+                float : "left"
+              }}>
+                Jika anda belum memiliki akun pengguna silahkan mendaftar dengan mengisi form dibawah ini !
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
@@ -129,12 +132,21 @@ return (
                 <span className="red-text">{errors.password2}</span>
               </div>
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+              <p className="grey-text text-darken-1"
+              style={{
+                letterSpacing: "1.5px",
+                textTransform: "inherit",
+                float : "left"
+              }}>
+                Jika anda sudah memiliki akun silahkan <Link to="/login">Login !</Link>
+              </p>
                 <button
                   style={{
                     width: "150px",
                     borderRadius: "3px",
                     letterSpacing: "1.5px",
-                    marginTop: "1rem"
+                    marginTop: "1rem",
+                    float: "right"
                   }}
                   type="submit"
                   className="btn btn-large waves-effect waves-light hoverable blue accent-3"

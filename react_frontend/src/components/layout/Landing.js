@@ -6,10 +6,14 @@ class Landing extends Component {
       <div style={{ height: "75vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s11 left-align">
-            <h5 className="grey-text text-darken-1">
+            <p className="grey-text text-darken-1"
+            style={{
+              fontSize: "30px",
+              fontFamily: "Source Sans Pro"
+            }}>
               Selamat datang di web apps authentication{" "}
-            </h5>
-            <br/><br/>
+            </p>
+            <br/>
             <div>
               <Link
                 to="/register"
@@ -37,9 +41,13 @@ class Landing extends Component {
               
             </div>
             <br/><br/>
-            <p className="grey-text text-darken-1">
-              Simple web apps user authentication via
-              Passport and Json web token, This Web Apps Build with nodeJs, reactJs, mongoDB atlas, and express
+            <p className="grey-text text-darken-1"
+            style={{
+              fontSize: "20px",
+              fontFamily: "Source Sans Pro"
+            }}>
+              Simpel web apps authentication menggunakan
+              Passport dan Json web token, Web apps ini dikembangkan dengan menggunakan nodeJs, reactJs, mongoDB atlas, express, dan Redux.
             </p>
           </div>
         </div>

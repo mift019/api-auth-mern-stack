@@ -14,10 +14,9 @@ return (
         <div className="row">
           <div className="col s12 center-align">
             <h4>
-              <b>Hey there,</b> {user.name.split(" ")[0]}
+              <b>Hi,</b> {user.name}
               <p className="flow-text grey-text text-darken-1">
-                You are logged into a full-stack{" "}
-                <span style={{ fontFamily: "monospace" }}>MERN</span> app 👏
+                Anda telah login pada web app authentications, jika anda ingin logout klik button dibawah ini, terima kasih !!!{" "}
               </p>
             </h4>
             <button
