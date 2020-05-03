@@ -16,7 +16,7 @@ login page
 [alt text](https://github.com/miftakhlaziz/Simple_Authentications_Using_Mern/tree/master/user_interfaces/login_page.png)
 
 simple dashboard user
-[alt text](https://github.com/miftakhlaziz/Simple_Authentications_Using_Mern/tree/master/user_interfaces/dashboard.png)
+[alt text](https://github.com/miftakhlaziz/Simple_Authentications_Using_Mern/blob/master/user_interfaces/dashboard.png)
 
 test api frontend using redux
-[alt text](https://github.com/miftakhlaziz/Simple_Authentications_Using_Mern/tree/master/user_interfaces/ 	login_test_api_redux.png)
+[alt text](https://github.com/miftakhlaziz/Simple_Authentications_Using_Mern/tree/master/user_interfaces/login_test_api_redux.png)
