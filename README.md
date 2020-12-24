@@ -5,6 +5,14 @@ connection to atlas :
 2. create database project
 3. connect anywhere
 
+## Stack
+NodeJS
+ExpressJs
+MongoDB Atlas
+ReactJs
+JWT Auth
+Redux
+
 ### results
 #### landing page
 
