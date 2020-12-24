@@ -1,4 +1,4 @@
-# Simple_Authentications_Using_Mern
+# Authentications MERN STACK Use RESTAPI
  
 connection to atlas :
 1. sign up atlas
